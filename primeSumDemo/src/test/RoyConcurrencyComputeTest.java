@@ -20,6 +20,5 @@ public class RoyConcurrencyComputeTest {
             TimeUtils.consoleTimeStapLength();
             TimeUtils.destoryTimeStap();
         }
-        Long end=System.currentTimeMillis();
     }
 }

@@ -24,7 +24,7 @@ public class RoyOneThreadComputeTest {
     public static void main(String[] arg){
         try {
             TimeUtils.recordTimeStap();
-            System.out.println("素数和为："+computeRangeSum( 5000000));
+            System.out.println("素数和为："+computeRangeSum( 500000));
         }catch (Exception e){
             e.printStackTrace();
         }finally {
